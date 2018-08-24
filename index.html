@@ -5,8 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NY Search</title>
+
 </head>
 <body>
-    
+    <h1>New York Times Search</h1>
+    <p>Search Parameters</p>
+    <div id="container">
+        <div id="search-term">
+            <label>Search Term:</label><br>
+            <input type="text" value=""/><br>
+        </div>
+        <div id="records">
+            <label>Number of Records to Retrieve</label><br>
+            <input type="text" value=""/><br>
+        </div>
+        <div id="start-year">
+            <label>Start Year (Optional)</label><br>
+            <textarea id="message-box"></textarea><br>
+        </div>
+        <div id="end-year">
+            <label>End Year (Optional)</label><br>
+            <textarea id="message-box"></textarea><br>
+        </div>
+        <button id="search-btn">
+            Search
+        </button>
+        <button id="clear-btn">
+            Clear Results
+        </button>
+        <div>
+            <p>Top Articles:</p>
+        </div>
+    </div>
+    <script href="assets/javascript/java.js"></script>
 </body>
 </html>
