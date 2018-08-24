@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NY Search</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -13,7 +14,7 @@
     <div id="container">
         <div id="search-term">
             <label>Search Term:</label><br>
-            <input type="text" value=""/><br>
+            <input id="search" type="text" value=""/><br>
         </div>
         <div id="records">
             <label>Number of Records to Retrieve</label><br>
@@ -33,10 +34,10 @@
         <button id="clear-btn">
             Clear Results
         </button>
-        <div>
+        <div id="top">
             <p>Top Articles:</p>
         </div>
     </div>
-    <script href="assets/javascript/java.js"></script>
+    <script src="assets/javascript/java.js"></script>
 </body>
 </html>
